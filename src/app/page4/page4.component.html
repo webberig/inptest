@@ -1,0 +1,29 @@
+<p>page4 works!</p>
+<table>
+  <caption>
+    Color Names in Multiple Languages (Romance vs Celtic)
+  </caption>
+  <thead>
+  <tr>
+    <th id="fam" class="toplevel">Family</th>
+    <th id="rmc" class="toplevel" colspan="2">Romance Lang</th>
+    <th id="cel" class="toplevel" colspan="2">Celtic</th>
+  </tr>
+  <tr>
+    <th headers="hue">Color</th>
+    <th headers="rmc" id="es">Spanish</th>
+    <th headers="rmc" id="fr">French</th>
+    <th headers="cel" id="ga">Irish</th>
+    <th headers="cel" id="cy">Welsh</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let i of [].constructor(2000)">
+    <th headers="hue" id="green">Green</th>
+    <td lang="es" headers="rmc es green">verde</td>
+    <td lang="fr" headers="rmc fr green">vert</td>
+    <td lang="ga" headers="cel ga green">glas</td>
+    <td lang="cy" headers="cel cy green">gwyrdd</td>
+  </tr>
+  </tbody>
+</table>
