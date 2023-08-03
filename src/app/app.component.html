@@ -1,3 +1,7 @@
+<div class="progress-bar" *ngIf="loading$ | async">
+  <div class="progress-bar__line"></div>
+</div>
+
 <ul>
   <li>
     <a [routerLink]="['/page1']">Page 1</a>
